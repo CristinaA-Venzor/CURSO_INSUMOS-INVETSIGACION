@@ -15,13 +15,14 @@
 
 #install.packages("tidyverse")
 #install.packages("janitor")
+#install.packages("GGally")
 
 
 ## Activar librerías
 library(readr)
 library(tidyverse)
 library(janitor)
-
+library(GGally)
 
 #Leo base de variables socioeconómicas
 demograficas <- read.csv("https://raw.githubusercontent.com/CristinaA-Venzor/CURSO_INSUMOS-INVETSIGACION/main/demograficas_alcaldia.csv") # cargo la base de caracteríticas
